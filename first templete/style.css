@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    text-decoration: none;
+    background-color:#fff;
+    letter-spacing: 4px;
+     padding: 8px 16px;
+     font-size: 15px;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.nav-a:hover{
+    background-color:  gainsboro;
+    color: black;
+    padding: 15px;
+}
+
+.second{
+    display: inline block;
+    margin-left: auto;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    word-spacing: 40px; 
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.one:hover{
+     background-color: gainsboro;
+    color: black;
+    padding: 15px;
+}
+
+
+.two:hover{
+     background-color: gainsboro;
+    color: black;
+     padding: 15px;
+}
+
+
+.three:hover{
+     background-color: gainsboro;
+    color: black;
+     padding: 15px;
+}
+
+
+.image1{
+    background-image: url("image/burger.jpg");
+    height: auto;
+}
+
+
+.main1{
+    font-family: "Playfair Display"; 
+    letter-spacing: 5px;
+    position: absolute;
+    top: 710px;
+    font-weight: 400px;
+    margin: 10px 0;
+    padding: 12px 24px !important;
+    opacity: 0.60;
+
+}
+
+
+.image2{
+    height: 60px;
+    margin-top: 45px;
+     opacity: 0.75;
+     border-radius: 4px;
+     width: 100px;
+     box-sizing: inherit;
+     margin-left: 100px;
+}
+
+
+.main2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    unicode-bidi: isolate;
+    margin-left: 750px;
+    font-weight: 400;
+    font-size: 5px;
+    box-sizing: inherit;
+}
+
+
+.four{
+     font-family: "Playfair Display";
+     margin-bottom: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.five{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.para1 p{
+    line-height: 1.5;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+
+.seven{
+    color: #757575 !important;
+     line-height: 1.5;
+     margin-top: 5px;
+}
+
+.main3{
+    position: absolute;
+    right: 100px;
+    margin-top: 370px;
+}
+
+
+.image3{
+    width: 100%;
+    opacity: 0.75;
+    border-radius: 4px;
+}
+
+
+.main4{
+    margin-left: 60px;
+    box-sizing: inherit;
+     padding: 12px 24px !important;
+     width: 100%;
+     margin-top: 80px;
+}
+
+
+.center{
+    margin-left: 220px;
+    margin-top: 300px;
+}
+
+
+.down{
+    margin-top: 20px;
+    margin-left: 28px;
+     font-weight: 400;
+     letter-spacing: 5px;
+     font-size: 20px;
+}
+
+
+.textgrey{
+    margin-top: 5px;
+    color: gray;
+     padding: 12px 24px !important;
+     padding-top: 12px !important;
+    padding-bottom: 30px !important;
+    margin-right: 180px;
+}
+
+
+.main5{
+    margin-top: 300px;
+    margin-left: 70px;
+}
+
+
+.reset{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+.per{
+     font-family: Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.bold{
+     font-family: Verdana, sans-serif;
+    font-weight: bolder;
+     color: #607d8b !important;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+
+.form{
+     padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+
+input{
+    padding: 25px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+
+}
+
+
+.btn{
+    border: none;
+    margin-top: 40px;
+    font-size: 17px;
+     background-color: #f1f1f1 !important;
+     padding: 10px;
+}
+
+.btn:hover{
+    background-color: #757575;
+    color: black;
+}
+
+
+
+
+
+.footer{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    background-color: #f1f1f1 !important;
+}
+
+.a{
+    text-decoration: underline;
+}
+
+
+@media(max-widh:425){
+    .main{
+        width: 425;
+    }
+    .image1{
+        width: 425;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
